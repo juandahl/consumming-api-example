@@ -1,0 +1,31 @@
+.App {
+  background-color: #282c34;
+  color: white;
+  padding: 2rem;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  padding-bottom: 2rem;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+.title {
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  padding: 2rem 0px;
+  text-align: center;
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
